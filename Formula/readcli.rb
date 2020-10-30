@@ -2,16 +2,16 @@
 class Readcli < Formula
   desc "Tool to that lets you read website content* on the command line"
   homepage "https://github.com/trashhalo/readcli"
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/trashhalo/readcli/releases/download/v0.0.1/readcli_0.0.1_Darwin_x86_64.tar.gz"
-    sha256 "65ff5565d5c4262e92acf4ec53ad3966c38707cc05ecb5034cbf56458dadd462"
+    url "https://github.com/trashhalo/readcli/releases/download/v0.0.2/readcli_0.0.2_Darwin_x86_64.tar.gz"
+    sha256 "17e0d178e418347fcaf5c1b0a355e73a2b01ab6712ab622399e7fa35bb4f7911"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/trashhalo/readcli/releases/download/v0.0.1/readcli_0.0.1_Linux_x86_64.tar.gz"
-      sha256 "b005e3dcd7148f06e1ac8249e61a9e8691e52e9ba096c7baef45f8e120c8886e"
+      url "https://github.com/trashhalo/readcli/releases/download/v0.0.2/readcli_0.0.2_Linux_x86_64.tar.gz"
+      sha256 "f5f198d9fdef9cd91e7f4083485fceaac2c4f5426a641da533ec9a5e83a7bf4a"
     end
   end
 
