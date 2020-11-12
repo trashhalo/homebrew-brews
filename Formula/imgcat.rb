@@ -2,16 +2,16 @@
 class Imgcat < Formula
   desc "Tool to output images in the terminal"
   homepage "https://github.com/trashhalo/imgcat"
-  version "1.1.1"
+  version "1.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/trashhalo/imgcat/releases/download/v1.1.1/imgcat_1.1.1_Darwin_x86_64.tar.gz"
-    sha256 "541d6a69532631a3c363391af8af130c224f478438324cd1a6c3f7ba84b901c3"
+    url "https://github.com/trashhalo/imgcat/releases/download/v1.2.0/imgcat_1.2.0_Darwin_x86_64.tar.gz"
+    sha256 "7d76237aa4e1b8b48c77b8329a910163ad3ee2c17916454b5a6b79df34d1eff4"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/trashhalo/imgcat/releases/download/v1.1.1/imgcat_1.1.1_Linux_x86_64.tar.gz"
-      sha256 "2d4d170a4a2708343afbaff12224482edfd0b91be1b5c48c281dc1148b12972e"
+      url "https://github.com/trashhalo/imgcat/releases/download/v1.2.0/imgcat_1.2.0_Linux_x86_64.tar.gz"
+      sha256 "c116bc543ab0d08a1b594c79c929802f5e245f96a5d93abf41fd77d729596393"
     end
   end
 
