@@ -5,8 +5,8 @@ class ConstantSandbox < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/trashhalo/constant_sandbox/releases/download/v0.1.0/stable_x86_64-apple-darwin.zip"
-    sha256 "ff014ce97ed70a1ce952023292ec9dec6754d54cf04b870809d7f592491982d3"
+    url "https://github.com/trashhalo/constant_sandbox/releases/download/v0.1.0/stable_x86_64-apple-darwin_constant_sandbox.zip"
+    sha256 "c74900a53818fe28fb0e11d4ccdf0676a71fe4d01af11c828aa0ec4bfd5708b8"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/trashhalo/constant_sandbox/releases/download/v0.1.0/stable_x86_64-unknown-linux-musl_constant_sandbox.zip"
