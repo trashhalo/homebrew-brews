@@ -18,15 +18,7 @@ class ConstantSandbox < Formula
   end
 
   def install
-    if OS.mac?
-      bin.install "./x86_64-apple-darwin/release/constant_sandbox"
-    elsif OS.linux?
-      if Hardware::CPU.intel?
-        bin.install "./x86_64-unknown-linux-musl/release/constant_sandbox"
-      elsif Hardware::CPU.arm?
-        bin.install "./arm-unknown-linux-gnueabihf/release/constant_sandbox"
-      end
-    end
+    bin.install "release/constant_sandbox"
   end
 
   test do
