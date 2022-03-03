@@ -3,7 +3,6 @@ class Readcli < Formula
   desc "Tool to that lets you read website content* on the command line"
   homepage "https://github.com/trashhalo/readcli"
   version "0.0.2"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/trashhalo/readcli/releases/download/v0.0.2/readcli_0.0.2_Darwin_x86_64.tar.gz"

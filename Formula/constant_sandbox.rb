@@ -2,7 +2,6 @@ class ConstantSandbox < Formula
   desc "Tool for ruby codebases used to enforce boundaries and modularize Rails applications"
   homepage "https://github.com/trashhalo/constant_sandbox"
   version "0.1.1"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/trashhalo/constant_sandbox/releases/download/v0.1.0/stable_x86_64-apple-darwin_constant_sandbox.zip"
