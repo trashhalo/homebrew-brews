@@ -3,7 +3,6 @@ class Imgcat < Formula
   desc "Tool to output images in the terminal"
   homepage "https://github.com/trashhalo/imgcat"
   version "1.2.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/trashhalo/imgcat/releases/download/v1.2.0/imgcat_1.2.0_Darwin_x86_64.tar.gz"
